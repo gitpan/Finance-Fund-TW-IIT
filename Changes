@@ -1,0 +1,6 @@
+Revision history for Perl extension Finance::Fund::TW::IIT.
+
+0.01  Sun Jan 14 18:42:49 2007
+	- original version; created by h2xs 1.23 with options
+		-A -n Finance::Fund::TW::IIT
+
