@@ -5,7 +5,7 @@ use HTML::TableExtract;
 use Data::Dumper;
 use Encode qw/from_to/;
 
-our $VERSION = '0.1';
+our $VERSION = '0.02';
 
 sub new() {
 	my $class = shift;
@@ -50,10 +50,10 @@ Finance::Fund::TW::IIT - Get mutual fund quotes from www.iit.com.tw
 =head1 SYNOPSIS
 
     use Finance::Fund::TW::IIT;
-    my $iit = Finance::Fund::TW::IIT->new(utf8 => 1);
-    my %hash = $iit->fetch;
+    my $fund = Finance::Fund::TW::IIT->new(utf8 => 1);
+    my %hash = $fund->fetch;
 
-    my @names = $iit->names;
+    my @names = $fund->names;
 
 =head1 AVAILABLE METHODS
 

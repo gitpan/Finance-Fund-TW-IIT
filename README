@@ -1,4 +1,4 @@
-Finance-Fund-TW-IIT version 0.01
+Finance-Fund-TW-IIT version 0.02
 ================================
 
 The README is used to introduce the module and provide instructions on
@@ -27,6 +27,7 @@ This module requires these other modules and libraries:
 
     WWW::Mechanize
     HTML::TableExtract
+    Encode
 
 COPYRIGHT AND LICENCE
 
